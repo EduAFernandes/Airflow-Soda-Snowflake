@@ -33,6 +33,11 @@ RUN python -m venv soda_venv && source soda_venv/bin/activate && \
 5. CREATE include/soda/configuration.yml:
 ![image](https://github.com/EduAFernandes/Airflow-Soda-Snowflake/assets/78389579/e356d978-dd80-47ba-bc1c-87b00385fb68)
 
+6. test the connection: astro dev restart >> source venv/bin/activate >> soda test-connection -d snowflake_db -c include/soda
+
+![image](https://github.com/EduAFernandes/Airflow-Soda-Snowflake/assets/78389579/46edce36-478b-4ae9-bcb4-76900c0cfb3b)
+
+
 
 
 
